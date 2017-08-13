@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "commonjs",
+    "allowJs": true,
+    "removeComments": true,
+    "outDir": "build",
+    "sourceMap": true,
+    "inlineSources": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "public",
+    "build",
+    "src/**/*.test.ts",
+    "wallaby.conf.js"
+  ]
+}

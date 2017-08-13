@@ -1,0 +1,62 @@
+{
+  "name": "wallabytest",
+  "version": "0.1.0",
+  "description": "Demo Wallay vs. Jest results.",
+  "scripts": {
+    "tsc": "tsc",
+    "lint": "tslint src/**/*",
+    "prestart": "tsc",
+    "start": "node ./bin/www",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "author": "Matt Morgis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "homepage": "https://github.com/#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^4.0.0",
+    "@types/express": "^4.0.36",
+    "@types/jest": "^20.0.6",
+    "@types/node": "^8.0.19",
+    "@types/supertest": "^2.0.2",
+    "jest": "^20.0.4",
+    "jest-cli": "^20.0.4",
+    "jest-environment-node-debug": "^2.0.0",
+    "supertest": "^3.0.0",
+    "ts-jest": "^20.0.10",
+    "tslint": "^5.5.0",
+    "tslint-config-airbnb": "^5.2.1",
+    "typescript": "^2.4.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ],
+    "roots": [
+      "<rootDir>/src/"
+    ],
+    "collectCoverage": true,
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
