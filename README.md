@@ -5,7 +5,7 @@
 
 Clone this repository.
 ```bash
-$ git clone https://github.com/....git
+$ git clone https://github.com/MattMorgis/WallabyTypeScriptExample.git
 ```
 
 ### Set Environment Variables

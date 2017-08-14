@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/"
+    "url": "git+https://github.com/MattMorgis/WallabyTypeScriptExample.git"
   },
   "author": "Matt Morgis",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com"
   },
-  "homepage": "https://github.com/#readme",
+  "homepage": "https://github.com/MattMorgis/WallabyTypeScriptExample#readme",
   "dependencies": {
     "dotenv": "^4.0.0",
     "express": "^4.15.3",
